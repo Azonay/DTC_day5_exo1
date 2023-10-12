@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+}
+.photo {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top: 150px;
+  left: 50px;
+}
+.photo img {
+  width: 100%;
+}
+.fond_bleu {
+  background-color: blue;
+}
+.section1 {
+  height: 300px;
+  border: solid 2px black;
+}
+
+.section2 .business h1 {
+  margin-top: 200px;
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.section2 .business p {
+  color: white;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
+}
+.business {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.p1 {
+  margin-right: 50px;
+  width: 500px;
+  margin-bottom: 50px;
+}
+.p2 {
+  margin-right: 50px;
+  width: 300px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section3 .business button {
+  margin-bottom: 100px;
+}
+.team {
+  width: 500px;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.team .p3 p {
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.team .p3 img {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.p3 p {
+  text-align: center;
+}
+.compte {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.social img {
+  width: 50%;
+  color: white;
+}
+h2 {
+  margin-left: 15px;
+}
+.section5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.client {
+  width: 400px;
+  height: 200px;
+  margin: 80px 10px 30px;
+}
+.client h2, p {
+  text-align: end;
+}
+.client img {
+  text-align: start;
+  max-width: 100%;
+  max-height: 100%;
+}
